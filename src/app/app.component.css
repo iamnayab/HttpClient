@@ -1,0 +1,140 @@
+/* Base Styles */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .login-container img {
+    width: 100px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #2e77cc;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .signup-section {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signup-section a {
+    color: #3897f0;
+    text-decoration: none;
+  }
+  
+  .signup-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .login-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .login-form input {
+      padding: 8px;
+    }
+  
+    .login-form button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .signup-section {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .login-container {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    .login-form input {
+      padding: 6px;
+    }
+  
+    .login-form button {
+      padding: 6px;
+      font-size: 14px;
+    }
+  
+    .divider {
+      font-size: 14px;
+    }
+  
+    .signup-section {
+      font-size: 10px;
+    }
+  }
+  .password-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .password-container input {
+    width: 100%;
+    padding: 12px 35px 12px 10px; /* Adds padding to the right for the icon */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 40px; /* Ensures a consistent height */
+    line-height: 1.2; /* Adjust for vertical alignment */
+  }
+  
+  .password-toggle {
+    position: absolute;
+    right: 10px;  /* Positions the icon 10px from the right */
+    top: 50%;
+    transform: translateY(-90%); /* Centers the icon vertically */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .password-toggle svg {
+    fill: #000; /* Neutral color for the icon */
+    width: 20px; /* Sets a consistent width for the icon */
+    height: 20px; /* Sets a consistent height for the icon */
+  }
+  
+  
